@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN_PAGE
+      
+    </title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav class=" text-3xl p-9">
+        <H2>SMART-WALLET</H2>
+        
+     </nav>
+
+     <section class="wallet-container bg-blue-600 lg:px-18 p-10    lg:flex gap-5 justify-between" >
+        <div class="info-container w-full global-padding justify-center">
+          
+         <div class="waller-manage text-2xl font-semibold mb-5 py-2 text-center bg-blue-300 rounded-md ">
+           <h1><i class='text-3xl bx bxs-wallet'></i> Waller Manager</h1> 
+         </div>  
+         <!-- class="mt-3 rounded-full overflow-hidden h-32 w-32">     -->
+         <div class="mx-auto p-auto  rounded-full overflow-hidden  h-32 w-32">
+            <img src="./image/wallet.png" alt="">
+         </div>
+  
+          <div class="text-center py-3">
+            <p>The Web Application is Developed by Riyaj Uddin Eusouf. Riyaj Is A FullStack Developer(MERN). Hire Him To Grow Your Technology Faster.</p>
+          </div>
+  
+          <div class="social  flex justify-center gap-10 py-3">
+            <img src="./image/insta.png" alt="">
+            <img src="./image/Linkedin.png" alt="">
+            <img src="./image/insta.png" alt="">
+          </div>
+          
+            <img src="A_image/learn more/learnmore.png" alt="">
+        </div>
+        
+  
+        <div class="log-info  w-full px-5 py-10  bg-blue-300">
+          <h1 class=" font-semibold text-2xl mb-5">User id</h1>
+          <div class="user-id pt-1">
+            <h1 class="font-bold text-gray-700 mb-3">Email Adress:</h1>
+            <div class="pt-3">
+              <input id="email" type="email" placeholder="Enter Your Username" required class="py-2 px-3 border rounded-md w-full">
+            </div>
+  
+          </div>
+  
+          <div class="pass pt-3">
+            <h1>Password:</h1>
+            <div class="pt-3">
+              <input id="password" type="password" placeholder="Enter Your Password" required class="py-2 px-3 border rounded-md w-full">
+            </div>
+          </div>
+  
+          <div class="log pt-3">
+            <button onclick="validateLogin()" type="submit" class="border rounded-md hover:bg-green-700 bg-orange-500 py-2 px-5 ">
+              <h1>Login Now</h1>   
+            </button>
+          </div>
+       </div>
+  
+  
+      </section>
+
+
+    <!-- footer start  -->
+    <footer class="p-5">
+  
+        <div class="main-container flex justify-between">
+          <div class="flex gap-9">
+            <h1>ABOUT</h1>
+            <h1>HOW IT WORKS</h1>
+            <h1>CONTACT</h1>
+          </div>
+      
+          <div>
+            <h1 class="text-3xl">SMART-WALLET</h1>
+          </div>
+          
+          <div class=" flex gap-9">
+            <h1>Singup</h1>
+            <h1>Login</h1>
+          </div>
+      
+          <div class=" flex gap-9">
+            <img src="image/Linkedin.png" alt="">
+            <img src="./image/tweet.png" alt="">
+            <img src="./image/insta.png" alt="">
+          </div>
+        </div>
+      
+          <div class="pt-4">
+             <hr class="border-black pt-5">
+             <div class="flex justify-between text-gray-400">
+              <p>Copyright © 2023.Riyaj Creative</p>
+              <p>Designed by Riyaj</p>
+             </div>
+          </div>
+          
+        
+    </footer>
+      
+    <!-- footer end -->
+
+    <script src="login.js"></script>
+</body>
+
+
+</html>

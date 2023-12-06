@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+
+</head>
+<body>
+    <!-- nav start  -->
+    <nav class=" text-3xl p-9 lg:px-16">
+        <H2>SMART-WALLET </H2>   
+     </nav>
+    <!-- nav end  -->
+
+    <!-- header start  -->
+
+   
+ <!-- <section class="wallet-container  bg-blue-600 lg:px-18 p-10    lg:flex-row gap-5 justify-between" > -->
+    
+  <section class="bg-blue-600 p-9 lg:px-16">
+    <div class="">
+        
+      <div class="waller-manage text-2xl font-semibold mb-5 py-2 text-center bg-blue-300 rounded-md ">
+          <h1><i class='text-3xl bx bxs-wallet'></i> Waller Manager</h1> 
+      </div> 
+        
+      <!-- totall ammount show  -->
+      <div class="py-5 flex justify-between gap-5">
+          <div class="w-full mx-auto bg-green-500 text-white text-center text-3xl py-2 px-4 rounded-md">
+           <h1>Deposite <br></h1> 
+           <span id="total-deposite" class="m-2">00 </span> BDT 
+          </div>
+
+          <div  class="w-full mx-auto bg-red-500 text-white text-center text-3xl py-2 px-4 rounded-md">
+            <h1>Withdraw <br></h1>
+            <span id="totalwithdraw" class="m-2">00 </span> BDT 
+          </div>
+
+          <div  class="w-full mx-auto bg-blue-500 text-white text-center text-3xl py-2 px-4 rounded-md">
+            <h1> Current Wallet <br></h1> 
+            <span id="current-ammount"  class="m-2">00 </span> BDT 
+          </div>
+      </div>
+
+    </div>
+    <!-- totall ammount show end -->
+
+
+    <!-- last step calculate  -->
+    <div class="py-5   flex  justify-between  gap-10">
+      <div  class="w-full mx-auto  bg-blue-300  p-5 py-4 flex flex-col gap-5 rounded-md">
+           <h1 class="text-3xl ">Diposite Money</h1>
+           <input type="number" id="Diposite" class="w-full px-3 py-2 border rounded-md" placeholder="Enter amount you want to deposite" required>
+            <button onclick="deposite_money()"  class=" bg-yellow-500 w-2/6 p-3  rounded-xl">
+                Diposite
+            </button>
+      </div>
+
+      <div class="bg-blue-300 w-full mx-auto p-5 py-4 flex flex-col gap-5  rounded-md ">
+            <h1 class="text-3xl ">Withdraw Money</h1>
+            <input type="number" id="withdraw" class="w-full px-3 py-2 border rounded-md" placeholder="Enter amount you want to withdraw" required>
+            <button  onclick="withdraw_money()"  class="bg-green-600 w-2/6 p-3 rounded-xl">
+              <h1>Withdraw</h1>
+            </button>
+      </div>
+
+    </div>
+
+   <!-- last step calculate end -->
+    
+ </section>
+  <!-- header end  -->
+
+<!-- footer start  -->
+<footer class="p-5">
+  
+  <div class="main-container flex justify-between">
+    <div class="flex gap-9">
+      <h1>ABOUT</h1>
+      <h1>HOW IT WORKS</h1>
+      <h1>CONTACT</h1>
+    </div>
+
+    <div>
+      <h1 class="text-3xl">SMART-WALLET</h1>
+    </div>
+    
+    <div class=" flex gap-9">
+      <h1>Singup</h1>
+      <h1>Login</h1>
+    </div>
+
+    <div class=" flex gap-9">
+      <img src="image/Linkedin.png" alt="">
+      <img src="./image/tweet.png" alt="">
+      <img src="./image/insta.png" alt="">
+    </div>
+  </div>
+
+    <div class="pt-4">
+       <hr class="border-black pt-5">
+       <div class="flex justify-between text-gray-400">
+        <p>Copyright © 2023.Riyaj Creative</p>
+        <p>Designed by Riyaj</p>
+       </div>
+    </div>
+    
+  
+</footer>
+<!-- footer start  -->
+
+
+
+ <script src="wallet.js"></script>
+    
+</body>
+ 
+</html>
+ 
