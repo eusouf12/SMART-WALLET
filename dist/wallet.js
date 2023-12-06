@@ -43,7 +43,7 @@ function withdraw_money(){
             alert('You can not withdraw.')
             document.getElementById('withdraw').value = '';
     }
-
+    //   dkfjkdjfjglfdjgllfdg
     else 
     {
         amount -= lost; 
