@@ -1,4 +1,4 @@
 function nextpage()
 {
-    window.location.href = 'login.html';
+    window.location.href = 'dist/login.html';
 }
